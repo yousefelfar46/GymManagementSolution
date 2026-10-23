@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\GymManagement.BLL\GymManagement.BLL.csproj" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\MembersPhotos\" />
+    <Folder Include="wwwroot\Files\" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <None Include="wwwroot\MembersPhotos\1b5d3759-a636-4d52-b6d6-2006cb0efc7eScreenshot 2026-09-03 150016.png" />
+    <None Include="wwwroot\MembersPhotos\c85b9de2-ae14-4c11-ace1-5236be8d31b6photo_2025-12-07_18-03-49.jpg" />
+    <None Include="wwwroot\MembersPhotos\nada.jpeg" />
+  </ItemGroup>
+
+</Project>
